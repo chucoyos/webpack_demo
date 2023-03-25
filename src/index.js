@@ -1,6 +1,9 @@
+import _ from 'lodash'
+
 function component() {
   const element = document.createElement('div')
-  element.innerHtml = ._join(['Hello', 'webpack'], ' ')
+  // Lodash, now imported by this script
+  element.innerHtml = _.join(['Hello', 'webpack'], ' ')
   return element
 }
 
