@@ -1,10 +1,12 @@
 import _ from 'lodash'
 
-function component() {
-  const element = document.createElement('div')
-  // Lodash, now imported by this script
-  element.innerHtml = _.join(['Hello', 'webpack'], ' ')
-  return element
-}
+// function comp() {
+//   const ele = document.createElement('div')
+//   ele.innerHtml = _.join(['Hello', 'webpack', 'with function return'], ' ')
+//   return ele
+// }
 
-document.body.appendChild(component())
+// document.body.appendChild(comp())
+const element = document.createElement('div')
+element.innerHTML = _.join(['Hello', 'webpack', 'without function'], ' ')
+document.body.appendChild(element)
