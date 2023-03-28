@@ -1,5 +1,6 @@
 # Webpack Demo
 
-This is a demo of using webpack from the webpack site tutorial.
 [link](https://webpack.js.org/guides/getting-started/)
+
+> Restaurant page from the Odin Project is a demonstration of webpack and JavaScript modules.
 
